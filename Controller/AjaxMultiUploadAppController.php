@@ -10,8 +10,8 @@
  *                and/or GNU GPL v3 (http://www.gnu.org/copyleft/gpl.html)
  */
  
-require_once (ROOT . DS . APP_DIR . "/Plugin/AjaxMultiUpload/Vendor/valums/upload.php");
-
+//require_once (ROOT . DS . APP_DIR . "/Plugin/AjaxMultiUpload/Vendor/valums/upload.php");
+App::import('Vendor', 'AjaxMultiUpload', array('file' => 'valums'.DS.'upload.php'));
 class AjaxMultiUploadAppController extends AppController {
 
 }
